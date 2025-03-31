@@ -1,2 +1,2 @@
 # Guven-Bana
-Sevgilim olur musun?
+Bana güvenmiyor musun?
