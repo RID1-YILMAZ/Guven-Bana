@@ -1,2 +1,2 @@
-# Guven-Bana
-Bana güvenmiyor musun?
+# Gay misin?
+Gaylik testi!
