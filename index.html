@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senin için yaptırdım🎀</title>
+    <title>Cevap vermeyen Gay!</title>
     <style>
         body {
             background-color: #1e1e1e;
@@ -80,7 +80,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Sevgilim olur musun?</h2>
+        <h2>Soru 1:  Gay misin?</h2>
         <button class="button-33" id="yes-btn" role="button">EVET</button>
         <button class="red-button" id="runaway-btn" role="button">HAYIR</button>
     </div>
@@ -90,7 +90,7 @@
         const runawayButton = document.getElementById("runaway-btn");
 
         const createEmoji = () => {
-            const emojis = ["💗", "⭐", "🫀","💘"];
+            const emojis = ["🏳️‍🌈", "🌈", "👨‍❤️‍👨","👨‍❤️‍💋‍👨"];
             const emoji = emojis[Math.floor(Math.random() * emojis.length)];
             const newEmoji = document.createElement("span");
             newEmoji.classList.add("emoji-emoji");
@@ -128,7 +128,7 @@
         };
 
         const startRunawayTimer = () => {
-            runawayTimer = setInterval(moveRunawayButton, 2000);
+            runawayTimer = setInterval(moveRunawayButton, 1000);
         };
 
         const stopRunawayTimer = () => {
@@ -158,7 +158,7 @@
             }
             runawayButton.style.display = "none";
             stopRunawayTimer();
-            document.querySelector("h2").innerHTML = "Seni Seviyorum <3";
+            document.querySelector("h2").innerHTML = "Biliyordum!";
             document.querySelector("h2").classList.add("#FFB6C1");
             document.body.style.backgroundColor = "#770737";
         });
